@@ -1,13 +1,13 @@
 {
   "name": "sj-react-bootstrap-datetimepicker",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "A bootstrap datetime picker component for React.js",
   "homepage": "http://dev.quri.com/react-bootstrap-datetimepicker/",
   "repository": {
     "type": "git",
     "url": "http://github.com/quri/react-bootstrap-datetimepicker"
   },
-  "main": "./src/DateTimeField.js",
+  "main": "./lib/DateTimeField.js",
   "scripts": {
     "build-npm": "babel --stage 0 ./src -d ./lib --ignore __tests__/*",
     "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --output-file react-bootstrap-datetimepicker.js",
